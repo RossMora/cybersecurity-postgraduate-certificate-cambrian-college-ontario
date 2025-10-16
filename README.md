@@ -1,7 +1,7 @@
 # Cybersecurity Postgraduate Certificate – Cambrian College (Portfolio)
 
 This public portfolio showcases coursework and hands-on projects completed as part of the **Cybersecurity Postgraduate Certificate** at Cambrian College (Ontario).  
-It mirrors my SharePoint/OneDrive structure and is organized by academic term and course.
+
 
 ## Structure
 ```
