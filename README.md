@@ -1,6 +1,6 @@
 # Cybersecurity Postgraduate Certificate – Cambrian College (Portfolio)
 
-This public portfolio showcases coursework and hands-on projects completed as part of the **Cybersecurity Postgraduate Certificate** at Cambrian College (Ontario).  
+This public portfolio showcases coursework and hands-on projects completed as part of the **Cybersecurity Postgraduate Certificate** at Cambrian College (Ontario), following completion of a previous Bachelor of Applied Information Systems Technology (BAIST) program at the Northern Alberta Institute of Technology, Edmonton, Alberta. 
 
 
 ## Structure
