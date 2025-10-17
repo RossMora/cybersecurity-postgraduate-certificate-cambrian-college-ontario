@@ -1,0 +1,48 @@
+name: Convert DOCX to PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      docx_path:
+        description: Path to the DOCX file to convert
+        required: true
+      branch:
+        description: Branch to commit the PDF + removal into
+        required: true
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Install LibreOffice
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y libreoffice
+
+      - name: Convert DOCX to PDF
+        run: |
+          set -euo pipefail
+          DOCX="${{ github.event.inputs.docx_path }}"
+          test -f "$DOCX" || (echo "Missing DOCX: $DOCX" && exit 2)
+          DIR=$(dirname "$DOCX")
+          soffice --headless --convert-to pdf --outdir "$DIR" "$DOCX"
+          PDF="${DOCX%.docx}.pdf"
+          test -f "$PDF" || (echo "Conversion failed: $PDF" && exit 3)
+          echo "PDF created: $PDF"
+
+      - name: Update repository (add PDF, remove DOCX)
+        run: |
+          set -euo pipefail
+          DOCX="${{ github.event.inputs.docx_path }}"
+          PDF="${DOCX%.docx}.pdf"
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add "$PDF"
+          git rm "$DOCX"
+          git commit -m "docs: replace DOCX with PDF ($DOCX -> $PDF)"
+          git push
