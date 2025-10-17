@@ -10,6 +10,9 @@ on:
         description: Branch to commit the PDF + removal into
         required: true
 
+permissions:
+  contents: write
+
 jobs:
   convert:
     runs-on: ubuntu-latest
