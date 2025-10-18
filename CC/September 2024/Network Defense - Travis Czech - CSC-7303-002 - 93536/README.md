@@ -346,3 +346,24 @@ echo "OpenVAS installation and setup complete."
 - Screenshot12_KaliCron.png
 - Screenshot13_OpenVAS.png
 
+\n## Assignments Index
+<!-- AUTO-GENERATED: Assignments Index START -->
+- [1_Firewall_Setup_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/1_Firewall_Setup_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [2 - A00322717_Moravec_Ross_Lab_2.pdf](assignments/2 - A00322717_Moravec_Ross_Lab_2.pdf)
+- [2_Windows_and_Linux_Systems_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/2_Windows_and_Linux_Systems_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [3 - A00322717_Ross_Moravec_Lab_3.pdf](assignments/3 - A00322717_Ross_Moravec_Lab_3.pdf)
+- [3_Active_Directory_Configuration_Ross_Moravec_A00322717_Midterm_Project.pdf](assignments/3_Active_Directory_Configuration_Ross_Moravec_A00322717_Midterm_Project.pdf)
+- [4 - A00322717_Ross_Moravec_Lab_4_Implementing_Network_Security_Measures.pdf](assignments/4 - A00322717_Ross_Moravec_Lab_4_Implementing_Network_Security_Measures.pdf)
+- [4_Wazuh_Implementation_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/4_Wazuh_Implementation_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [5_Vulnerability_Testing_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/5_Vulnerability_Testing_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [6_Escalate_Win VM_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/6_Escalate_Win VM_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [7_Security_Plan_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/7_Security_Plan_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [8_Formal_Report_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/8_Formal_Report_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [A00322717_Moravec_Ross.pdf](assignments/A00322717_Moravec_Ross.pdf)
+- [A00322717_Moravec_Ross_Lab_2.pdf](assignments/A00322717_Moravec_Ross_Lab_2.pdf)
+- [A00322717_Ross_Moravec_Lab_3.pdf](assignments/A00322717_Ross_Moravec_Lab_3.pdf)
+- [A00322717_Ross_Moravec_Lab_4_Implementing_Network_Security_Measures.pdf](assignments/A00322717_Ross_Moravec_Lab_4_Implementing_Network_Security_Measures.pdf)
+- [Midterm - 2_Windows_and_Linux_Systems_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf](assignments/Midterm - 2_Windows_and_Linux_Systems_Ross_Moravec_A00322717_Midterm_Project_CSC7303_93536.pdf)
+- [Midterm - 3_Active_Directory_Configuration_Ross_Moravec_A00322717_Midterm_Project.pdf](assignments/Midterm - 3_Active_Directory_Configuration_Ross_Moravec_A00322717_Midterm_Project.pdf)
+- [Ross_Moravec_A00322717_Lab_6_Mobile_and_IoT_Security_Implementation.pdf](assignments/Ross_Moravec_A00322717_Lab_6_Mobile_and_IoT_Security_Implementation.pdf)
+<!-- AUTO-GENERATED: Assignments Index END -->
